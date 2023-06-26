@@ -1,0 +1,17 @@
+valgrind --tool=memcheck --leak-check=full ./tema2_neopt ./in/input_valgrind
+==2841504== Memcheck, a memory error detector
+==2841504== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2841504== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==2841504== Command: ./tema2_neopt ./in/input_valgrind
+==2841504==
+NEOPT SOLVER
+Run=./tema2_neopt: N=400: Time=10.320222
+==2841504==
+==2841504== HEAP SUMMARY:
+==2841504==     in use at exit: 0 bytes in 0 blocks
+==2841504==   total heap usage: 12 allocs, 12 frees, 10,249,812 bytes allocated
+==2841504==
+==2841504== All heap blocks were freed -- no leaks are possible
+==2841504==
+==2841504== For lists of detected and suppressed errors, rerun with: -s
+==2841504== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
